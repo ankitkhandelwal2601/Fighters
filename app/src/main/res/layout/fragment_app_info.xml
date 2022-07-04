@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AppInfoFragment">
+
+    <ImageView
+        android:id="@+id/imgViewInfo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/drawer_icon"
+        android:layout_marginTop="200dp"
+        android:contentDescription="@string/fighters" />
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fighters"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgViewInfo"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textBioView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/it_is_an_android_app_that_tells_us_about_the_freedom_fighters_of_india_who_played_an_extensive_role_in_getting_independence_for_the_country"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewInfo"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginVertical="15dp"
+        android:layout_marginHorizontal="10dp"/>
+
+</RelativeLayout>

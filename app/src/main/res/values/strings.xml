@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fighters</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text">Text</string>
+    <string name="card_img">card_img</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="name_of_the_bio">Name of the Bio</string>
+    <string name="desc_img">desc_img</string>
+    <string name="about">About</string>
+    <string name="hello_description">Hello Description</string>
+    <string name="app_info">App Info</string>
+    <string name="mail_us">Mail Us</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="profile">Profile</string>
+    <string name="ankit_khandelwal">Ankit Khandelwal</string>
+    <string name="developer">Developer:</string>
+    <string name="fighters">Fighters</string>
+    <string name="it_is_an_android_app_that_tells_us_about_the_freedom_fighters_of_india_who_played_an_extensive_role_in_getting_independence_for_the_country">It is an Android App that tells us about the freedom fighters of India who played an extensive role in getting independence for the country.</string>
+</resources>

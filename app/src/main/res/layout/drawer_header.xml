@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="@drawable/card_splash_bg"
+    android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/drawerImg"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/drawer_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:contentDescription="icon" />
+
+        <TextView
+            android:id="@+id/drawerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fighters"
+            android:textSize="24sp"
+            android:layout_below="@+id/drawerImg"
+            android:textColor="#ffffff"
+            android:layout_marginStart="20dp"
+            android:textAlignment="center"/>
+
+
+</RelativeLayout>
